@@ -6,7 +6,7 @@ Python 3: Fundaments、Functional、Iteration、Generation、Dictionaries、Sets
 
 # Python 3 Fundamentals
 
-## 一、课程介绍
+## 一、介绍
 
 ### 本课程内容
 
@@ -51,3 +51,16 @@ Python 3: Fundaments、Functional、Iteration、Generation、Dictionaries、Sets
     - numpy - 对数值分析很有用，特别是处理数组或矩阵
     - pandas - 对处理数据采集非常有用
     - matplotlib - 一个方便的图表库。
+
+## 二、运行Python
+
+### 介绍
+
+- 什么是Python？
+- Python语言之间的区别？
+- Python的不同实现？
+- 如何安装Python？
+- 如何拥有并行版本的Python？
+- 虚拟环境(Virtual environments)
+- 如何安装第三方库？
+- 如何运行Python代码？
