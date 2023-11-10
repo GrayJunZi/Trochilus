@@ -54,7 +54,7 @@ Python 3: Fundaments、Functional、Iteration、Generation、Dictionaries、Sets
 
 ## 二、运行Python
 
-### 介绍
+### 1. 介绍
 
 - 什么是Python？
 - Python语言之间的区别？
@@ -65,11 +65,13 @@ Python 3: Fundaments、Functional、Iteration、Generation、Dictionaries、Sets
 - 如何安装第三方库？
 - 如何运行Python代码？
 
-### Python的历史？
+### 2. 什么是Python
+
+#### 2.1 Python的历史？
 
 - Python是由 `Guido van Rossum` 在`1989`年当他在荷兰的`CWI`工作时创建的。
 
-### 什么是Python？
+#### 2.2 什么是Python？
 
 - Python是一种编程语言，它不是应用程序。
     - Python有很多种实现，例如：`CPython`、`PyPy`。
@@ -79,10 +81,14 @@ Python 3: Fundaments、Functional、Iteration、Generation、Dictionaries、Sets
         - Cython 转换为 C/C++
 - 官方标准使用的是CPython。
 
-### CPython
+#### 2.3 CPython
 
 - CPython是官方参考(reference)实现。
 - CPython是使用最广泛的Python发行版，它是开源的，并且用C语言写的。
 - CPython实现还包括一个叫做标准库(standard library)的东西。
 - CPython和标准库的这个实现是Python的正式(official)实现。
 - 支持跨平台（Linux、Windows、Mac OS、iOS、Android、PlayStation、XBox、...）
+
+### 3. 安装 Python
+
+进入 [Python 官网](https://www.python.org)，点击 `Downloads` 菜单下载最新安装包进行安装。
