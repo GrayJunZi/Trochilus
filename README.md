@@ -64,3 +64,25 @@ Python 3: Fundaments、Functional、Iteration、Generation、Dictionaries、Sets
 - 虚拟环境(Virtual environments)
 - 如何安装第三方库？
 - 如何运行Python代码？
+
+### Python的历史？
+
+- Python是由 `Guido van Rossum` 在`1989`年当他在荷兰的`CWI`工作时创建的。
+
+### 什么是Python？
+
+- Python是一种编程语言，它不是应用程序。
+    - Python有很多种实现，例如：`CPython`、`PyPy`。
+    - 另外有许多更像是翻译器，在Python与其他语言之间进行代码转换：
+        - IronPython 转换为 .NET
+        - Jython 转换为 Java
+        - Cython 转换为 C/C++
+- 官方标准使用的是CPython。
+
+### CPython
+
+- CPython是官方参考(reference)实现。
+- CPython是使用最广泛的Python发行版，它是开源的，并且用C语言写的。
+- CPython实现还包括一个叫做标准库(standard library)的东西。
+- CPython和标准库的这个实现是Python的正式(official)实现。
+- 支持跨平台（Linux、Windows、Mac OS、iOS、Android、PlayStation、XBox、...）
