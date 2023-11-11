@@ -92,3 +92,27 @@ Python 3: Fundaments、Functional、Iteration、Generation、Dictionaries、Sets
 ### 3. 安装 Python
 
 进入 [Python 官网](https://www.python.org)，点击 `Downloads` 菜单下载最新安装包进行安装。
+
+### 4. 使用 Windows Python Launcher
+
+#### 4.1 查看Python版本
+
+查看Python默认版本：
+```bash 
+py --version
+```
+
+查看所有已安装的Python列表：
+```bash
+py --list
+```
+
+切换默认使用的Python版本：
+```bash
+py -3.10 --version
+```
+
+查看所有Python安装路径列表：
+```bash
+py --list-paths
+```
