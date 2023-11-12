@@ -116,3 +116,23 @@ py -3.10 --version
 ```bash
 py --list-paths
 ```
+
+### 5. 虚拟环境(Virtual Environments)
+
+#### 5.1 创建虚拟环境
+
+```bash
+py -m venv test
+```
+
+激活虚拟环境
+```bash
+cd test\Scripts
+activate.bat
+```
+
+停用虚拟环境
+```bash
+cd test\Scripts
+deactive.bat
+```
