@@ -136,3 +136,42 @@ activate.bat
 cd test\Scripts
 deactive.bat
 ```
+
+### 6. 安装第三方库
+
+#### 6.1 pip
+
+`pip`: Package Install for Python 
+
+- pip是Python的包安装程序。
+- pip允许我们管理包，很容易安装、更新和删除包。
+- pip使用Python包索引 `https://pypi.org`，它是Python的官方第三方存储库。
+
+#### 6.2 使用pip安装第三方包
+
+- 激活虚拟环境
+- 使用命令 `pip install <package_name>` 即可安装对应的包。
+- 可以安装指定版本的包 `pip install <package_name> == 1.3.2`。
+- 可以安装小于等于某个版本的包 `pip install <package_name> <= 1.2`
+- 可以安装大于某个版本的包 `pip install <package_name> >= 2.0`
+
+例如安装 `jupyterthemes`
+```bash
+pip install jupyterthemes
+```
+
+#### 6.3 requirements.txt 文件
+
+`requirements.txt` 文件的作用就是与代码一起跟踪所需的包和版本。
+
+requirements.txt
+```
+numpy==1.18.1
+pandas==1.1.4
+matplotlib==3.3.3
+```
+
+可以安装指定`requirements.txt`文件中的包
+```bash
+pip install -r requirements.txt
+```
