@@ -175,3 +175,43 @@ matplotlib==3.3.3
 ```bash
 pip install -r requirements.txt
 ```
+
+### 7. 运行Python
+
+#### 7.1 Python编译器/解释器
+
+1. 编写Python代码，Python代码本质上就是一个文本文件。
+2. Python通过编译器进行代码的编译，它会对代码进行各种检查确保语法是正确的。
+3. Python编译器编译后转换为另一种叫做字节码(bytecode)的东西，这是一个中间代码文件。
+4. Python虚拟机负责解释代码并在操作系统上运行它。
+5. Python虚拟机进行另一层转换，用作翻译将中间代码转换为对操作系统的请求。
+
+#### 7.2 如何运行Python？
+
+- 通过Python编译器/解释器。
+- 运行Python可以有两种方法。
+    - 交互模式(interactive mode): 通过Python命令行输入命令，有时被成为`REPL`(read-eval-print-loop)。
+    - 脚本模式(script model): 将所有代码写入文件，Python通过编译器/解释器进行代码编译，然后通过虚拟机进行执行。
+
+#### 7.3 交互模式
+
+- 激活虚拟环境
+- 通过在命令行上输入`python`启动Python Shell(REPL)。
+- 通过 **Jupyter Notebooks** 第三方库将REPL封装成了可视化界面，该库是在Python的基础上开发的，它比命令行更容易使用，还可以将输入的所有命令都保存到文件中，通常为`.ipynb`扩展名。
+
+#### 7.4 脚本模式
+
+- 使用文本编辑器编写所有代码。
+- 使用命令行运行Python程序，例如 `python my_app.py`。
+
+#### 7.5 进入 jupyter notebook
+
+Jupyter Notebook 本质上在幕后运行交互式Python(命令行)。
+
+通过输入命令 `jupyter notebook .` 在当前目录下打开该应用程序。
+
+常用的快捷方式：
+- `enter` 下一行。
+- `shift` + `enter` 运行代码块。
+- `ctrl` + `enter` 运行选中的代码块。
+- `dd` 删除选中的代码块。
